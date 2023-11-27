@@ -3,6 +3,12 @@ import { ref, onMounted } from 'vue'
 import api from '@/plugins/axios'
 import Loading from 'vue-loading-overlay'
 import useGenreStore from '@/stores/genre'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+function openMovie(movieId) {
+  router.push({ name: 'MovieDetails', params: { movieId } });
+}
 
 const genreStore = useGenreStore()
 
@@ -144,4 +150,15 @@ onMounted(async () => {
     background-color: #455a08;
     box-shadow: 0 0 0.5rem #748708;
 }
+.active {
+  background-color: #67b086;
+  font-weight: bolder;
+}
+
+.movie-genres span.active {
+  background-color: #abc322;
+  color: #000;
+  font-weight: bolder;
+}
+
 </style>
