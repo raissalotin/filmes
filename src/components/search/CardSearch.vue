@@ -19,21 +19,7 @@ onMounted(async () => {
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 mb-3">
-        <!-- <div class="col-4 mt-3">
-          <router-link :to="{ name: 'search' }" class="btn btn-primary btn-block"
-            >Filmes</router-link
-          >
-        </div>
-        <div class="col-4 mt-3">
-          <router-link :to="{ name: 'searchTv' }" class="btn btn-primary btn-block"
-            >Séries</router-link
-          >
-        </div>
-        <div class="col-4 mt-3">
-          <router-link :to="{ name: 'searchPerson' }" class="btn btn-primary btn-block"
-            >Pessoas</router-link
-          >
-        </div> -->
+        
       </div>
 
       <loading v-model:active="isLoading" is-full-page />
