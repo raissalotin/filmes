@@ -1,4 +1,6 @@
-<script setup>
-import HeaderPage from '@/components/header/HeaderPage.vue';
-import FooterPage from '@/components/footer/FooterPage.vue';
-</script>
+<template>
+    <div>
+      <h1>Home</h1>
+    </div>
+  </template>
+  
