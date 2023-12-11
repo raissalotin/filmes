@@ -1,13 +1,13 @@
 <script setup>
 import HeaderPage from '@/components/header/HeaderPage.vue';
+import CardPerson from '@/components/main/CardPerson.vue';
 import FooterPage from '@/components/footer/FooterPage.vue';
-import CardTv from '@/components/main/CardTv.vue';
 </script>
 
 <template>
     <header-page/>
     <div>
-        <card-tv/>
+        <card-person/>
     </div>
     <footer-page/>
 </template>

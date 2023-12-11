@@ -1,13 +1,13 @@
 <script setup>
 import HeaderPage from '@/components/header/HeaderPage.vue';
 import FooterPage from '@/components/footer/FooterPage.vue';
-import CardTv from '@/components/main/CardTv.vue';
+import CardSearchTv from '@/components/search/CardSearchTv.vue';
 </script>
 
 <template>
     <header-page/>
     <div>
-        <card-tv/>
+        <card-search-tv/>
     </div>
     <footer-page/>
 </template>
